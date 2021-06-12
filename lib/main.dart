@@ -20,7 +20,25 @@ class  MyApp extends StatelessWidget {
                 radius: 50.0,
                 backgroundImage: AssetImage('images/homer_simpson.png'),
               ),
-              Text('Homer Simpson'),
+              Text(
+                'Homer Simpson',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 40.0,
+                  fontWeight: FontWeight.bold,
+                  fontFamily: 'Pacifico',
+                ),
+              ),
+              Text(
+                'NUCLEAR ENGINEER',
+                style: TextStyle(
+                  color: Colors.teal[100],
+                  fontSize: 20.0,
+                  fontWeight: FontWeight.bold,
+                  letterSpacing: 2.5,
+                  fontFamily: 'Source Sans Pro',
+                ),
+              ),
             ],
           ),
         ),
