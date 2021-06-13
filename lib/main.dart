@@ -30,28 +30,36 @@ class  MyApp extends StatelessWidget {
                   fontFamily: 'Pacifico',
                 ),
               ),
-              Text(
-                'NUCLEAR ENGINEER',
-                style: TextStyle(
-                  color: Colors.teal[100],
-                  fontSize: 20.0,
-                  fontWeight: FontWeight.bold,
-                  letterSpacing: 2.5,
-                  fontFamily: 'Source Sans Pro',
-                ),
+            Text(
+              'NUCLEAR ENGINEER',
+              style: TextStyle(
+                color: Colors.teal[100],
+                fontSize: 20.0,
+                fontWeight: FontWeight.bold,
+                letterSpacing: 2.5,
+                fontFamily: 'Source Sans Pro',
               ),
-             Card(
-                color: Colors.white,
-                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-                child: ListTile(
-                  leading: Icon(
-                    Icons.phone,
-                    color: Colors.teal,
-                  ),
-                  title: Text('+44 555 234 678',
-                    style: TextStyle(
-                      color: Colors.teal.shade900,
-                      fontFamily: 'Source Sans Pro',
+            ),
+            SizedBox(
+              height: 20.0,
+              width: 250.0,
+              child: Divider(
+                color: Colors.teal[100],
+              ),
+            ),
+            Card(
+              color: Colors.white,
+              margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+              child: ListTile(
+                leading: Icon(
+                  Icons.phone,
+                  color: Colors.teal,
+                ),
+                title: Text(
+                  '+44 555 234 678',
+                  style: TextStyle(
+                    color: Colors.teal.shade900,
+                    fontFamily: 'Source Sans Pro',
                       fontSize: 20.0,
                     ),
                   ),
